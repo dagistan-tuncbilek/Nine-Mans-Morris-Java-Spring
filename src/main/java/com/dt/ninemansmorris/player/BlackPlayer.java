@@ -22,10 +22,18 @@ public class BlackPlayer extends Player {
 	public List<Move> calculateAllLegalMoves() {
 		List<Move> moveList = new ArrayList<Move>();
 		int counter = 0;
+		boolean flag = false;
 		for (Piece piece : getGameBoard()) {
 			if (piece.getPieceColor() == Color.BLACK) {
-				moveList.addAll(piece.getLegalMoveList());
 				counter++;
+				if (piece.getPiecePosition()<24) {
+					moveList.addAll(piece.getLegalMoveList());
+				} else {
+					if (!flag) {
+					moveList.addAll(piece.getLegalMoveList());
+					flag = true;
+					}
+				}
 			}
 		}
 		setPieceCount(counter);

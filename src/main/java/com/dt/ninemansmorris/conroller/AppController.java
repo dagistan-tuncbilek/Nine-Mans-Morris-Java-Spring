@@ -40,7 +40,7 @@ public class AppController {
 		BoardConverter converter = new BoardConverter();
 		List<Color> piecesList = converter.convert(pieces);
 		Board board = new Board(piecesList, Color.BLACK);
-		MiniMax minimax = new MiniMax(5);
+		MiniMax minimax = new MiniMax(3);
 		FinalMove finalMove = minimax.execute(board);
 		System.out.println(finalMove);
 	    return finalMove;

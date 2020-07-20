@@ -37,7 +37,6 @@ class PieceTest {
 		Move move1 = new Move(stone, 1);
 		Move move2 = new Move(stone, 9);
 		final List<Move> moveList = Collections.unmodifiableList(Arrays.asList(move1, move2));
-		Move[] moveArray = new Move[moveList.size()];
 		assertEquals(moveList, stone.calculateLegalMoves(pieceColorList));
 	}
 	

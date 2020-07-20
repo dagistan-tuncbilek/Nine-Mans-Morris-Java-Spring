@@ -41,7 +41,9 @@ public final class MiniMax {
 		final int numMoves = legalMoves.size();
 		for (final Move move : legalMoves) {
 			final MoveTransition moveTransition = board.currentPlayer().makeMove(move);
+			System.out.println(moveTransition);
 			if (moveTransition.getMoveStatus().isDone()) {
+				System.out.println(board.currentPlayer().getColor());
 				currentValue = board.currentPlayer().getColor().isWhite()
 						? min(moveTransition.getBoard(), this.searchDepth - 1)
 						: max(moveTransition.getBoard(), this.searchDepth - 1);
@@ -83,6 +85,7 @@ public final class MiniMax {
 	}
 
 	private int min(final Board board, final int depth) {
+		System.out.println(board.currentPlayer().getLegalMoves());
 		if (depth == 0) {
 			this.boardsEvaluated++;
 			return this.evaluator.evaluate(board, depth);
@@ -104,6 +107,7 @@ public final class MiniMax {
 	}
 
 	private int max(final Board board, final int depth) {
+		System.out.println(board.currentPlayer().getLegalMoves());
 		if (depth == 0) {
 			this.boardsEvaluated++;
 			return this.evaluator.evaluate(board, depth);

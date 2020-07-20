@@ -44,4 +44,9 @@ public class MoveTransition {
 	public Color getCurrentPlayerColor() {
 		return currentPlayerColor;
 	}
+
+	@Override
+	public String toString() {
+		return "MoveTransition [currentPlayerColor=" + currentPlayerColor + ", moveStatus=" + moveStatus + "]";
+	}
 }
