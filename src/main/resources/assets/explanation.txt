@@ -1,0 +1,18 @@
+Terminology:
+board,
+mill :  three of their pieces on contiguous points in a straight line, vertically or horizontally,
+pounding:  The act of removing an opponent's man is sometimes called "pounding" the opponent. 
+
+*  a piece in an opponent's mill can only be removed if no other pieces are available. 
+*  After all men have been placed, phase two begins.
+
+
+Phase 1: Placing pieces
+Phase 2: Moving pieces
+Phase 3: "Flying"
+
+At the beginning of the game, it is more important to place pieces in versatile locations rather than to try to form mills immediately 
+and make the mistake of concentrating one's pieces in one area of the board.[11] An ideal position, 
+which typically results in a win, allows a player to shuttle one piece back and forth between two mills, removing a piece every turn. 
+
+https://en.wikipedia.org/wiki/Nine_men%27s_morris
