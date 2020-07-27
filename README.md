@@ -5,7 +5,8 @@ Spring Boot Restful Service based simple board game engine.
 https://en.wikipedia.org/wiki/Nine_men%27s_morris
 
 ### Used Paterns and Libraries
-
+* Spring Boot
+* Spring Rest
 * JDK 11
 * JavaFX 11 SDK
 * Engine desicion maker - MiniMax (Recursion)
