@@ -1,10 +1,10 @@
-# Nine Man's Morris - Game Engine
+## Nine Man's Morris - Game Engine
 
 Spring Boot Restful Service based simple board game engine.
 
 https://en.wikipedia.org/wiki/Nine_men%27s_morris
 
-## USED PATTERN AND LIBRARIES
+### Used Paterns and Libraries
 
 * JDK 11
 * JavaFX 11 SDK
@@ -15,4 +15,4 @@ https://en.wikipedia.org/wiki/Nine_men%27s_morris
 A simple model has been made by Angular (With basic engine)
 http://ninemansmorris.atwebpages.com/
 
-## In the next version of Angular project, engine will be connected to the webpage.
+#### In the next version of Angular project, engine will be connected to the webpage.
